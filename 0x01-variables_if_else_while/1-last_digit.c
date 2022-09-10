@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-* main - prints a random number to variable 
+* main - prints a random number to variable
 *
 * Return: Always (Successful)
 */
