@@ -1,10 +1,12 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
-* main - prints a random number to variable
+* main - print if the number is positive, zero, or negative
 *
-* Return: Always (Successful)
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
@@ -13,7 +15,7 @@ int l;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-l = n % 10; 
+l = n % 10;
 
 if (l > 5)
 {
